@@ -1,0 +1,190 @@
+.navbar-custom {
+  background-color: rgba(255,255,255, 1);
+}
+.goog-te-banner-frame.skiptranslate {
+	display: none !important;
+	} 
+body {
+	top: 0px !important; 
+	}
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem !important;
+  letter-spacing: 0.1rem !important;
+  font-weight: 700;
+  position: absolute;
+}
+#nukiva {
+  left: 48.3%;
+}
+.navbar {
+  border: none;
+  border-radius: 0;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.65);
+  height: 40px;
+}
+.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+}
+
+.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+.masthead .masthead-content .masthead-heading {
+  font-size: 8rem;
+}
+
+#subheading{
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.masthead .masthead-content .masthead-subheading {
+  font-size: 2.5rem;
+}
+
+.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+}
+
+.masthead .bg-circle-1 {
+  height: 90rem;
+  width: 90rem;
+  bottom: -55rem;
+  left: -55rem;
+}
+
+.masthead .bg-circle-2 {
+  height: 50rem;
+  width: 50rem;
+  top: -25rem;
+  right: -25rem;
+}
+
+.masthead .bg-circle-3 {
+  height: 20rem;
+  width: 20rem;
+  bottom: -10rem;
+  right: 5%;
+}
+
+.masthead .bg-circle-4 {
+  height: 30rem;
+  width: 30rem;
+  top: -5rem;
+  right: 35%;
+}
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+	padding: 35px 40px;
+  position:absolute;
+  margin-top: 65px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+
+html,body {
+  height:100%;
+width:100%;
+position:relative;
+}
+
+#background-carousel{
+	position:fixed;
+	width:100%;
+	height:100%;
+  z-index:-1;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.carousel,
+.carousel-inner {
+	width:100%;
+	height:100%;
+	z-index:0;
+	overflow:hidden;
+}
+.carousel-item {
+	width:100%;
+	height:100%;
+	background-position:center center;
+	background-size:cover;
+	z-index:0;
+  -webkit-transition: -webkit-transform 3s ease-in-out !important;
+  -o-transition: -o-transform 3s ease-in-out !important;
+  transition: transform 3s ease-in-out !important;
+}
